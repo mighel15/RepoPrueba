@@ -20,10 +20,6 @@ class LoginActivity : AppCompatActivity() {
             insets
         }
 
-        val btnNext = findViewById<Button>(R.id.btnNext)
-        btnNext.setOnClickListener{
-            val intent = Intent(this,MainActivity::class.java)
-            startActivity(intent)
-        }
+
     }
 }

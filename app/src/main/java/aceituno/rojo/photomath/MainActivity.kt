@@ -15,7 +15,19 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
 
         setContentView(R.layout.activity_main)
-
+        var numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
+        numero = 1 + 2
 
         //val tvNombre = findViewById(R.id.tvNombre) as TextView
         //tvNombre.setText("Hola Mundo")
