@@ -21,9 +21,10 @@
         android:gravity="center"/>
 
     <Button
+        android:id="@+id/btnPersonas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Registro de personas"/>
+        android:text="Personas"/>
 
     <Button
         android:layout_width="match_parent"

@@ -13,11 +13,17 @@
         android:theme="@style/Theme.PhotoMath"
         tools:targetApi="31">
         <activity
+            android:name=".ThridActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".WelcomeActivity"
             android:exported="true">

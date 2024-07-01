@@ -9,14 +9,14 @@ import androidx.appcompat.app.AppCompatActivity
 
 class WelcomeActivity : AppCompatActivity() {
 
-    private lateinit var btnIniciar : Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_welcome)
 
-        btnIniciar = findViewById(R.id.btnIngresar)
+         val btnIniciar = findViewById<Button>(R.id.btnIngresar)
 
         btnIniciar.setOnClickListener{
             //Toast.makeText(baseContext, "Me hicieron clic", Toast.LENGTH_SHORT).show()
