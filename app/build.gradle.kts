@@ -49,7 +49,4 @@ dependencies {
     //navcomponent
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
-
-    //recyclerview
-    implementation("androidx.recyclerview:recyclerview:1.3.0")
 }

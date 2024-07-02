@@ -14,8 +14,13 @@ class MenuActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_menu)
         val btnPersonas = findViewById<Button>(R.id.btnPersonas)
+        val btnContactos = findViewById<Button>(R.id.btnContactos)
         btnPersonas.setOnClickListener {
             val intentNextActivity = Intent(this, SecondActivity::class.java)
+            startActivity(intentNextActivity)
+        }
+        btnContactos.setOnClickListener {
+            val intentNextActivity = Intent(this, ThridActivity::class.java)
             startActivity(intentNextActivity)
         }
     }

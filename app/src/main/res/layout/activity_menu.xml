@@ -32,8 +32,9 @@
         android:text="Registro solicitud"/>
 
     <Button
+        android:id="@+id/btnContactos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Consulta de clientes"/>
+        android:text="Contactos"/>
 
 </LinearLayout>
