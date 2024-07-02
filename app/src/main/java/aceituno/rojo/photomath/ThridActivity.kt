@@ -15,7 +15,7 @@ class ThridActivity : AppCompatActivity() {
         val amigo = ContactoModel("Miguel","99999999","Jr. Puno 123", "correo@correo.com",true)
 
 
-        /*val amigos = MutableList <ContactoModel>
+        val amigos: MutableList <ContactoModel> = mutableListOf()
         amigos.add(amigo)
         amigos.add(ContactoModel("Juan", "888888","Jr Juliaca 123", "mail@correo.com",false))
         amigos.add(ContactoModel("Juan", "888888","Jr Juliaca 123", "mail@correo.com",false))
@@ -24,6 +24,6 @@ class ThridActivity : AppCompatActivity() {
         amigos.add(ContactoModel("Juan", "888888","Jr Juliaca 123", "mail@correo.com",false))
         amigos.add(ContactoModel("Juan", "888888","Jr Juliaca 123", "mail@correo.com",false))
         amigos.add(ContactoModel("Juan", "888888","Jr Juliaca 123", "mail@correo.com",false))
-        amigos.add(ContactoModel("Juan", "888888","Jr Juliaca 123", "mail@correo.com",false))*/
+        amigos.add(ContactoModel("Juan", "888888","Jr Juliaca 123", "mail@correo.com",false))
     }
 }
