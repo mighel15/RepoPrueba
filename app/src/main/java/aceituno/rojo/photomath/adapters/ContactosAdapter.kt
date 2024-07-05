@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 
@@ -30,6 +31,9 @@ class ContactosAdapter:RecyclerView.Adapter<ContactosAdapter.ViewHolder>() {
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.setValues(lstContactos[position])
+        holder.cv.setOnClickListener{
+
+        }
     }
 
     class ViewHolder(view: View) :RecyclerView.ViewHolder(view) {
@@ -37,6 +41,7 @@ class ContactosAdapter:RecyclerView.Adapter<ContactosAdapter.ViewHolder>() {
         val correo = view.findViewById<TextView>(R.id.tvCorreo)
         val celular = view.findViewById<TextView>(R.id.tvCelular)
         val estrella = view.findViewById<ImageView>(R.id.ivEstrella)
+        val cv = view.findViewById<CardView>(R.id.cvItemPersona)
         fun setValues(model: ContactoModel){
             nombres.setText(model.nombre)
             correo.setText(model.correo)
